@@ -2,6 +2,8 @@
 
 /* font-family: 'Open Sans', sans-serif; */
 
+/* HOME */
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -135,7 +137,7 @@ footer{
     clear: both;
 }
 
-/* Inicio Pagina NOSOTROS */
+/* NOSOTROS */
 .historia p{
     font-size: 1em;
 }
@@ -187,10 +189,8 @@ footer{
 }
 
 
-/* Fin de NOSOTROS */
 
-
-/* INICIO NOVEDADES */
+/* NOVEDADES */
 
 main .novedades{
     border-left: 10px solid #FFA07A;
@@ -213,10 +213,9 @@ main .novedades:hover{
     padding-top: 8px;
 }
 
-/* FIN NOVEDADES */
 
 
-/* INICIO CONTACTO */
+/*  CONTACTO */
 
 main{
     display: flex;
@@ -232,6 +231,14 @@ main{
     background: #e0e0e0;
     box-shadow:  35px 35px 70px #bebebe,
                  -35px -35px 70px #ffffff;
+}
+
+.msg-send{
+    font-style: italic;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 8px;
+
 }
 
 .redes{
@@ -272,6 +279,11 @@ ul{
 
 .redes li{
     margin: 45px;
+}
+
+.redes li span{
+    font-weight: bold;
+    font-style: italic;
 }
 
 .redes li a{

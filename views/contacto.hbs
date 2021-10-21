@@ -19,15 +19,17 @@
                 </p>
                 <p class="centrar"><input type="submit"></p>
             </form>
-
+            {{#if message}}
+                <p class="msg-send">{{message}}</p>
+            {{/if}}
         </div>
         <div class="redes">
             <h2>Otras vias de contacto</h2>
             <p>Pueden contactarnos a traves de los siguienes medios</p>
             <ul>
-                <li>Telefono: 555444333</li>
-                <li>Facebook: <a href="#">RusticFB</a></li>
-                <li>Twitter: <a href="#">RusticTW</a></li>
-                <li>Instagram <a href="#">RusticINS</a></li>
+                <li><span>Telefono:</span> 555444333</li>
+                <li><span>Facebook:</span> <a href="#">RusticFB</a></li>
+                <li><span>Twitter:</span> <a href="#">RusticTW</a></li>
+                <li><span>Instagram</span> <a href="#">RusticINS</a></li>
             </ul>
         </div>
